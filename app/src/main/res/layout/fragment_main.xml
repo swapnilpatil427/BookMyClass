@@ -1,0 +1,151 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.swapn.bookmyclass.fragments.MainFragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgrey">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:elevation="8dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:paddingLeft="@dimen/mainrowimagepaddingleft"
+                android:paddingRight="@dimen/mainrowimagepaddingleft"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/maintablerowpadding_top"
+                android:id="@+id/courses"
+                android:paddingBottom="@dimen/maintablerowpadding_bottom"
+                android:background="@drawable/border_bottom">
+
+                <ImageView
+                    android:layout_width="@dimen/mainrowimagewidth"
+                    android:layout_height="@dimen/mainrowimageheight"
+                    app:srcCompat="@drawable/blackboard"
+                    android:id="@+id/img_classes" />
+
+                <TextView
+                    android:text="Classes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_classes"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/mainrowimagepaddingleft"
+                    android:textSize="@dimen/maintablerowtextsize"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+
+                android:paddingLeft="@dimen/mainrowimagepaddingleft"
+                android:paddingRight="@dimen/mainrowimagepaddingleft"
+                android:id="@+id/text_books"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/maintablerowpadding_top"
+                android:paddingBottom="@dimen/maintablerowpadding_bottom"
+                android:background="@drawable/border_bottom">
+
+                <ImageView
+                    android:layout_width="@dimen/mainrowimagewidth"
+                    android:layout_height="@dimen/mainrowimageheight"
+                    app:srcCompat="@drawable/library"
+                    android:id="@+id/img_books" />
+
+                <TextView
+                    android:text="Books"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/mainrowimagepaddingleft"
+                    android:textSize="@dimen/maintablerowtextsize"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:paddingLeft="@dimen/mainrowimagepaddingleft"
+                android:paddingRight="@dimen/mainrowimagepaddingleft"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/maintablerowpadding_top"
+                android:id="@+id/professors_row"
+                android:paddingBottom="@dimen/maintablerowpadding_bottom"
+                android:background="@drawable/border_bottom">
+
+                <ImageView
+                    android:layout_width="@dimen/mainrowimagewidth"
+                    android:layout_height="@dimen/mainrowimageheight"
+                    app:srcCompat="@drawable/professor"
+                    android:id="@+id/img_professors" />
+
+                <TextView
+                    android:text="Professors"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_professor"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/mainrowimagepaddingleft"
+                    android:textSize="@dimen/maintablerowtextsize"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:paddingLeft="@dimen/mainrowimagepaddingleft"
+                android:paddingRight="@dimen/mainrowimagepaddingleft"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/maintablerowpadding_top"
+                android:paddingBottom="@dimen/maintablerowpadding_bottom"
+                android:id="@+id/events_row"
+                android:background="@drawable/border_bottom">
+
+                <ImageView
+                    android:layout_width="@dimen/mainrowimagewidth"
+                    android:layout_height="@dimen/mainrowimageheight"
+                    app:srcCompat="@drawable/calendar"
+                    android:id="@+id/img_events" />
+
+                <TextView
+                    android:text="Events"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_events"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/mainrowimagepaddingleft"
+                    android:textSize="@dimen/maintablerowtextsize"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+
+
+        </TableLayout>
+
+       <include layout="@layout/fragment_main_recycler_view" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

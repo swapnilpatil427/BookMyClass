@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.swapn.bookmyclass.fragments.SelllingBooksFragment"
+    android:orientation="vertical">
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <AutoCompleteTextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/coursesautoComplete"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:hint="Search Courses" />
+
+            <ImageButton
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/imageButton"
+                android:layout_weight="1"
+                android:background="@drawable/search"
+                android:layout_gravity="right|center_vertical" />
+        </FrameLayout>
+
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv"
+        />
+</LinearLayout>
+

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BookMyClass</string>
+    <string name="auth_failed">Authetication Failed</string>
+    <string name="no_user_signed_in">No User Logged In.</string>
+    <string name="user_exists">User Already Exists</string>
+    <string name="signupfailed">Sign Up Failed</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="Sign_out_string">Sign Out</string>
+    <string name="openDrawer">Navigation View Opened</string>
+    <string name="closeDrawer">Navigation View Closed</string>
+    <string name="action_settings">setting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Sell_book">Sell a book</string>
+    <string name="selling_books">Selling books</string>
+    <string name="action_message">Messages</string>
+    <string name="clientid_google">676382925748-gok4nkcjju8e3htdqv7ae26su4a1b8r8.apps.googleusercontent.com</string>
+    <string name="action_home">Home</string>
+    <string name="text_item">Message</string>
+
+
+</resources>

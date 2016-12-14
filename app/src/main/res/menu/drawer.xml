@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sell_book"
+            android:checked="false"
+            android:title="@string/Sell_book" />
+        <item
+            android:id="@+id/selling_books"
+            android:checked="false"
+            android:title="@string/selling_books" />
+
+        <item
+            android:id="@+id/log_off"
+            android:checked="false"
+            android:title="@string/Sign_out_string" />
+    </group>
+</menu>

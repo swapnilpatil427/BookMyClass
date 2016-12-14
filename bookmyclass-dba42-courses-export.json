@@ -1,0 +1,27 @@
+{
+  "1" : {
+    "courseid" : "CS175",
+    "coursename" : "Mobile Device Development",
+    "greensheetUrl" : "http://www.google.com",
+    "professor" : "Dr. Fai Young",
+    "schedule" : "Sat 10AM - 12.45PM",
+    "textbooks" : [ null, "id1", "id2" ]
+  },
+  "2" : {
+    "courseid" : "CS266",
+    "coursename" : "Information Security",
+    "greensheetUrl" : "http://www.google.com",
+    "professor" : "Dr. Mark Stamp",
+    "schedule" : "Sat 8AM - 12.45PM",
+    "textbooks" : [ null, "id1", "id2" ]
+  },
+  "4" : {
+    "courseid" : "CS185C - Sec 01",
+    "coursename" : "Game Engines",
+    "greensheetUrl" : "http://www.google.com",
+    "professor" : "Dr. Fai Young",
+    "schedule" : "Sat 10AM - 12.45PM",
+    "textbooks" : [ null, "id1", "id2" ]
+  }
+}
+

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "676382925748",
+    "firebase_url": "https://bookmyclass-dba42.firebaseio.com",
+    "project_id": "bookmyclass-dba42",
+    "storage_bucket": "bookmyclass-dba42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676382925748:android:b937ca187259a777",
+        "android_client_info": {
+          "package_name": "com.example.swapn.bookmyclass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676382925748-so7s96km8hva5265f5ul34mg0v9pr21j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swapn.bookmyclass",
+            "certificate_hash": "DB35FDA76B4636028C28783D487594DA9BCEDE7A"
+          }
+        },
+        {
+          "client_id": "676382925748-gok4nkcjju8e3htdqv7ae26su4a1b8r8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpbH8t-_n121a_2kR9FOmXD5V8f-BTNJ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676382925748-gok4nkcjju8e3htdqv7ae26su4a1b8r8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

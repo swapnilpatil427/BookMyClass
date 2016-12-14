@@ -10,7 +10,10 @@
             android:id="@+id/selling_books"
             android:checked="false"
             android:title="@string/selling_books" />
-
+        <item
+            android:id="@+id/sensor_example"
+            android:checked="false"
+            android:title="@string/sensor_example" />
         <item
             android:id="@+id/log_off"
             android:checked="false"

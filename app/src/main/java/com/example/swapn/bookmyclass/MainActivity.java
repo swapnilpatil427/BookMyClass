@@ -37,6 +37,7 @@ import com.example.swapn.bookmyclass.fragments.SellBookMasterFragment;
 import com.example.swapn.bookmyclass.fragments.SelllingBooksFragment;
 import com.example.swapn.bookmyclass.fragments.StudyGroupMessagesFragment;
 import com.example.swapn.bookmyclass.fragments.ViewSellersFragment;
+import com.example.swapn.bookmyclass.fragments.sensorFragment;
 import com.example.swapn.bookmyclass.models.Book;
 import com.example.swapn.bookmyclass.models.User;
 import com.google.android.gms.common.ConnectionResult;
@@ -110,6 +111,9 @@ public class MainActivity extends AppCompatActivity implements OnConnectionFaile
                     case R.id.selling_books :
                         openSellingBookFragment();
                         break;
+                    case R.id.sensor_example :
+                        openSensorExampleFragment();
+                        break;
                     default:
                         //Toast.makeText(getApplicationContext(),"Inbox Selected",Toast.LENGTH_SHORT).show();
                         return true;
@@ -161,6 +165,14 @@ public class MainActivity extends AppCompatActivity implements OnConnectionFaile
         //calling sync state is necessay or else your hamburger icon wont show up
         actionBarDrawerToggle.syncState();
         initialiseApp();
+    }
+
+    public void openSensorExampleFragment() {
+        drawerLayout.closeDrawers();
+        sensorFragment fragment = new sensorFragment();
+        android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.frame,fragment);
+        fragmentTransaction.commit();
     }
 
     public void openStudyGroupMessageFragment(String group_id, String group_name) {

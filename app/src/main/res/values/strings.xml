@@ -19,6 +19,7 @@
     <string name="clientid_google">676382925748-gok4nkcjju8e3htdqv7ae26su4a1b8r8.apps.googleusercontent.com</string>
     <string name="action_home">Home</string>
     <string name="text_item">Message</string>
+    <string name="sensor_example">sensor_example</string>
 
 
 </resources>
